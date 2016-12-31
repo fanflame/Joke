@@ -2,5 +2,5 @@
 <resources>
     <dimen name="splash_tips">14sp</dimen>
     <dimen name="splash_title">16sp</dimen>
-
+    <dimen name="joke_size">16sp</dimen>
 </resources>

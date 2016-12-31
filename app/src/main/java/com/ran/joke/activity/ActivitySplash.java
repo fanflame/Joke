@@ -9,6 +9,7 @@ import android.widget.LinearLayout;
 import com.ran.joke.R;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 
 /**
  * Created by fanyiran on 16/11/13.
@@ -31,6 +32,7 @@ public class ActivitySplash extends ActivityBase {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        ButterKnife.bind(this);
         init();
         delayJump();
     }
